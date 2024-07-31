@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.dark {
+    background-color: black;
+    color: aliceblue;
+}
+
+.dark a{
+    color: aliceblue;
+}
+
+.dark a:hover {
+    background-color:aliceblue;
+    color: black;
+}
+
+.bg-dark-fixed-img {
+    background: url("images/bgDark.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-bright-fixed-img {
+    background: url("images/bgBright.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-dark {
+    background: rgba(10, 10, 50, 1.0);
+}
+
+.text-bright {
+    color: aliceblue;
+}
+
+.card-dark-1 {
+    padding: 10px;
+    border-radius: 40px;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.card-dark-2 {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.brand {
+    display: flex;
+    padding: 10px;
+}
+
+.brand img {
+    width: 50px;
+}
+
+.desktop-nav {
+    display: none;
+    
+}
+
+.menu-button {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 60px;
+    margin-right: 20px;
+    
+}
+
+.menu-button:hover {
+    cursor: pointer;
+}
+
+.menu-button div {
+    flex: 1;
+    margin: 2px;
+    background-color: white;
+}
+
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section h1 {
+    font-family: tahoma;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+}
+
+.section h2 {
+    font-family: tahoma;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 5px;
+    font-weight: lighter;
+}
+
+.section h3 {
+    font-family: tahoma;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 5px;
+    font-weight: lighter;
+}
+
+.section p {
+    font-family: tahoma;
+    font-weight: lighter;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 10px;
+    font-weight: lighter;
+}
+
+.section ul {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.section ul li {
+    font-family: tahoma;
+    font-size: 1.2em;
+}
+
+.overview {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+   
+    
+}
+
+.overview div {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+}
+
+.down-errow {
+    display: flex;
+    width: 20px;
+    height: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.down-errow div {
+    width: 40px;
+    flex: 1;
+    margin: 2px;
+    background-color: green;
+}
+
+.pointer {
+    width: 80px;
+    border-radius: 0px 0px 100% 100%;
+}
+
+.intro {
+    display: none;
+    flex-direction: column;
+}
+
+.one-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.one-1 {
+    width: 100%;
+}
+
+.two-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.three-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.two-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.three-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.three-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.three-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact- us {
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #aaa;
+}
+
+.contact-us a {
+    color: #aaa;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100vw;
+    }
+    
+    .header {
+        justify-content: space-between;
+    }
+    
+    .brand {
+        
+    }
+    
+    .brand img {
+        
+    }
+    
+    .desktop-nav {
+        display: flex;
+        margin-right: 40px;
+    }
+
+    .desktop-nav a {
+        padding: 5px 10px 5px 10px;
+    }
+
+    
+    
+    .menu-button {
+        display: none;
+        
+    }
+    
+    
+    
+    .mobile-nav {
+        display: none;
+    }
+    
+    .section {
+        flex-direction: column;
+    }
+
+    .section h1 {
+        
+    }
+
+    .section h2 {
+        text-align: left;
+    }
+
+    .section h3 {
+        text-align: left;
+    }
+
+    .section p {
+        text-align: left;
+    }
+    
+    .one-box {
+        flex-direction: row;
+    }
+    
+    .two-box {
+        flex-direction: row;
+    }
+    
+    .three-box {
+        flex-direction: row;
+    }
+    
+    .two-1 {
+        width: 50%;
+    }
+    .two-2 {
+        width: 50%;
+    }
+    
+    .three-1 {
+        
+    }
+    .three-2 {
+        
+    }
+    .three-3 {
+        
+    }
+    .contact-us p {
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
