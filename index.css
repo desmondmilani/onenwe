@@ -72,3 +72,11 @@ body {
     text-align: center;
     color: #ddddff;
 }
+
+p {
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
