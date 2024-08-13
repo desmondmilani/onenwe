@@ -3,319 +3,418 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>1N'we SA</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container bg-dark text-bright">
-        <header class="header dark">
-            <a href="" class="brand">
-                <img src="images/logoWhite.png" alt="logo">    
-            </a>
-            
-            <nav class="desktop-nav">
-                <a href="index.html">Home</a>
-                <a href="#">Products & Services</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
-            </nav>
+    <div class="container-md">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logoWhite.png" alt="1N'we Logo" class="logo" />
+                </a>
 
-            <div class="menu-button" onclick="toggleNav();">
-                <div></div>
-                <div></div>
-                <div></div>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#welcome" class="nav-link">Home</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#products_" class="nav-link">Products & Services</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#about_" class="nav-link">About Us</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#contact_" class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </header>
 
-        <nav class="mobile-nav" id="mobileNav">
-            <a href="index.html">Home</a>
-            <a href="#">Products & Services</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
         </nav>
 
-        <section class="section">
-            <div class="one-box">
-
-                <div class="one-1">
-                    <h1>Welcome to 1N'WESA</h1>
-                    <p>We are delighted to see you as part of our community.
-                        <br />Feel free to discover, interact, and collaborate with us to swicth ON the Mode.</p>
-  
+        <div class="des-light">
+            <section id="welcome" class="welcome">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <h1 class="display-5 text-center my-5">Welcome to 1N'WESA</h1>
+                    <p class="text-center fs-3">We are delighted to see you as part of our community.
+                        Feel free to discover, interact, and collaborate with us to swicth ON the Mode.</p>
+                    </div>
                 </div>
-                
+            </section>
+    
+            <section id="mission_" class="mt-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="row align-items-center justify-content-center">
+                            <div id="mission" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#mission" data-bs-slide-to="0" class="active"></button>
+                                    <button type="button" data-bs-target="#mission" data-bs-slide-to="1"></button>
+                                    <button type="button" data-bs-target="#mission" data-bs-slide-to="2"></button>
+                                    <button type="button" data-bs-target="#mission" data-bs-slide-to="3"></button>
+                                </div>
+    
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/bgDark.jpg" alt="mission" class="d-block w-100" />
+                                        <div class="carousel-caption p-4 dim-bg">
+                                            <h3>Our vission</h3>
+                                            <p>We envision a future where every process buzz with efficiency, and every worker thrives through continuous development.</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="carousel-item">
+                                        <img src="images/bgDark.jpg" alt="mission" class="d-block w-100" />
+                                        <div class="carousel-caption dim-bg">
+                                            <h3>Our mission</h3>
+                                            <p>We switch ON the MODE for Organisational and Workers’ Development and Efficiency</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="carousel-item">
+                                        <img src="images/bgDark.jpg" alt="values" class="d-block w-100" />
+                                        <div class="carousel-caption dim-bg">
+                                            <h3>Our values</h3>
+                                            <p>Excellence, Education, Collaboration, Innovation, Empowerment, Adaptability, and Integrity buzz in our walk.</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="carousel-item">
+                                        <img src="images/bgDark.jpg" alt="competitive" class="d-block w-100" />
+                                        <div class="carousel-caption dim-bg">
+                                            <h3>Our competitive edge</h3>
+                                            <p>We are subject-matter-experts at tailor-making efficiency that cares for both organisation and employee. We use this principle and our values when selecting partners.</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <button class="carousel-control-prev" type="button" data-bs-target="#mission" data-bs-slide-to="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+    
+                                <button class="carousel-control-next" type="button" data-bs-target="#mission" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                        <img src="images/welcome.png" alt="" class="side-img" />
+                        <a href="#contact_" class="btn btn-primary">Take your first step</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="row pb-4" id="products_">
+            <div class="col">
+                <h2 class="text-center des-text-dark mt-5">Products & Services</h2>
             </div>
-            <div class="two-box">
-                <div class="two-1">
-                    <div class="intro" id="intro1">
-                        <h3>Our Vission</h3>
-                        <p>We envision a future where every process buzz with efficiency, and every worker thrives through continuous
-                            development.
-                        </p>
+        </section>
+
+        <section id="product" class="row">
+            <div class="col-md-4">
+                <div class="card bg-dark text-light h-100">
+                    <div class="card-header">
+                        <h4>1N'WESA Consultant</h4>
                     </div>
-
-                    <div class="intro" id="intro2">
-                        <h3>Our Mission</h3>
-                        <p>We switch ON the MODE for Organisational and Workers’ Development and Efficiency
-                        </p>
-                    </div>
-
-                    <div class="intro" id="intro3">
-                        <h3>Our Values</h3>
-                        <p>Excellence, Education, Collaboration, Innovation, Empowerment, Adaptability, and Integrity buzz in our walk.
-                        </p>
-                    </div>
-
-                    <div class="intro" id="intro4">
-                        <h3>Our Competitive Edge</h3>
-                        <p>We are subject-matter-experts at tailor-making efficiency that cares for both organisation and employee. We use this
-                            principle and our values when selecting partners.
-                        </p>
-                    </div>
-
-                    
-                </div>
-                <div class="two-2">
-                    <img src="images/welcome.png" alt="">
-                </div>
-            </div>
-            <h1>Products and Services</h1>
-            <div class="three-box bg-dark-fixed-img text-bright">
-                <div class="three-1 card-dark-1">
-                    <h2>1N'WESA Consultant</h2>
-                    <p>specialises on systems and process engineering that enables our clients’ operations.</p>
-                    <ul>
-                        <li>System and apps development</li>
-                        <li>Process engineering</li>
-                    </ul>
-                </div>
-                <div class="three-2 card-dark-1">
-                    <h2>1N'WESA Brokers</h2>
-                    <p>specialises in managing direct marketing campaigns for our client. We business and market alignment so that our clients focuses on their core business.
-                    </p>
-                    <ul>
-                        <li>Lead generation</li>
-                        <li>Lead warming</li>
-                        <li>Customer engagement</li>
-                        <li>Sales (Call Centre outsourcing)</li>
-                    </ul>
-                </div>
-                <div class="three-3 card-dark-1">
-                    <h2>1N'WESA etd practitioners</h2>
-                    <p>specialises in human capital education, training and development. This ensures that our clients’ employees have the required skills and expertise</p>
-                    <ul>
-                        <li>Content research</li>
-                        <li>Skills analysis</li>
-                        <li>Skills development facilitation</li>
-                        <li>Facilitation, Assessment and Moderation</li>
-                        <li>Coaching and mentorship</li>
-                    </ul>
-                </div>
-            </div>
-
-            <h1>Company Overview</h1>
-            <div class="one-box bg-dark text-bright">
-                <div class="one-1">
-                    <div class="overview">
-                        <div class="card-dark-2">
-                            <h3>2012</h3>
-                            <img src="" alt="">
-                            <div class="down-errow">
-                                <div></div>
-                                <div class="pointer"></div>
-                            </div>
-                            <p>1NWESA was founded by Simon T Milani as a vehicle to drive his passion of Organisational Efficiency and People Development, in 2012. This making it our 1st of the 7 Key Milestones.</p>
-                        </div>
-
-                        <div class="card-dark-2">
-                            <h3>2012/13</h3>
-                            <div class="down-errow">
-                                <div></div>
-                                <div class="pointer"></div>
-                            </div>
-                            <p>Facilitated an
-                                NPO
-                                Administration
-                                course
-                                (Unaccredited) for
-                                EEYO NPO
-                                (Tembisa, GP).
-                                </p>
-                        </div>
-
-                        <div class="card-dark-2">
-                            <h3>2013</h3>
-                            <div class="down-errow">
-                                <div></div>
-                                <div class="pointer"></div>
-                            </div>
-                            <p>Facilitated &
-                                Coached on SAQA
-                                accredited unit
-                                standards 7468,
-                                9015, 9016,
-                                119457, 114969,
-                                119459 & 119465
-                                for City Year
-                                Learnership -
-                                subcontracted by
-                                Basadi Africa (LVK)
-                                (JHB, GP).</p>
-                        </div>
-
-                        <div class="card-dark-2">
-                            <h3>2014/15</h3>
-                            <div class="down-errow">
-                                <div></div>
-                                <div class="pointer"></div>
-                            </div>
-                            <p>Facilitated SAQA
-                                accredited unit
-                                standards 9010,
-                                9012, 9013,
-                                119457, 119459 &
-                                119465 for RLM
-                                CDWs Learnership
-                                - subcontracted
-                                by Basadi Africa
-                                (LVK) (Rustenburg,
-                                NW).
-                                </p>
-                        </div>
-
-                        <div class="card-dark-2">
-                            <h3>2015</h3>
-                            <div class="down-errow">
-                                <div></div>
-                                <div class="pointer"></div>
-                            </div>
-                            <p>Facilitated SAQA
-                                accredited unit
-                                standards 7468,
-                                9015 & 9016 for
-                                Ditsela Academy -
-                                subcontracted by
-                                Basadi Africa (LVK)
-                                (JHB, GP).</p>
-                        </div>
-
-                        <div class="card-dark-2">
-                            <h3>2016</h3>
-                            <div class="down-errow">
-                                <div></div>
-                                <div class="pointer"></div>
-                            </div>
-                            <p>Assessed SAQA
-                                accredited unit
-                                standard 115753
-                                for Basadi Africa
-                                (LVK) (Tembisa,
-                                GP).
-                                </p>
-                        </div>
-
-                        <div class="card-dark-2">
-                            <h3>2017</h3>
-                            <div class="down-errow">
-                                <div></div>
-                                <div class="pointer"></div>
-                            </div>
-                            <p>Facilitated SAQA
-                                accredited unit
-                                standards 7468,
-                                9015 & 9016 for
-                                Ditsela Academy -
-                                subcontracted by
-                                Basadi Africa (LVK)
-                                (Cape Town, WC).</p>
-                        </div>
-
-
+                    <div class="card-body">
+                        <p>Specialises on systems and process engineering that enables our clients’ operations.</p>
+                        <ul>
+                            <li>System and apps development</li>
+                            <li>Process engineering</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <h1>Target Audience</h1>
-            <div class="two-box bg-dark-fixed-img text-bright">
-                <div class="two-1">
-                    <img src="images/welcome.png" alt="">
-                </div>
-                <div class="two-2 card-dark-1">
-                    <p>We aim to serve the following segments across all 9 South African provinces.</p>
-                    <h2>Public Sector</h2>
-                    <ul>
-                        <li>Local and provincial governments</li>
-                        <li>Colleges</li>
-                        <li>NPOs</li>
-                        <li>Workers Unions and Federations</li>
-                    </ul>
-
-                    <h2>Private Sector</h2>
-                    <ul>
-                        <li>SMEs</li>
-                        <li>Large corporate</li>
-                        <li>Colleges</li>
-                    </ul>
-
-                    <h2>Individual</h2>
-                    <ul>
-                        <li>Working class</li>
-                    </ul>
+            <div class="col-md-4 my-1">
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <h4>1N'WESA Brokers</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Specialises in managing direct marketing campaigns for our client. We ensure business and market alignment so that our clients focuses on their core business.</p>
+                        <ul>
+                            <li>Lead generation</li>
+                            <li>Lead warming</li>
+                            <li>Customer engagement</li>
+                            <li>Sales (Call Centre outsourcing)</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <h1>Unique Selling Proposition (USP)</h1>
-            <div class="one-box">
-                <div class="one-1">
-                    <p>We tailor-make competitively priced efficiency that cares for both organisation and employee. We use
-                        this principle and our values when selecting partners.
-                        </p>
-                    <p>We do because our lived values ensures buzz in our walk.</p>
-                    <ul>
-                        <li>Excellence - we strive for the highest standards of performance and quality.</li>
-                        <li>Education - we encourage and support a culture of learning, growth, and skill development.</li>
-                        <li>Collaboration - we foster teamwork, open communication, and synergy across strategic business units.</li>
-                        <li>Innovation - we embrace creativity and seek innovative solutions for efficiency and development.</li>
-                        <li>Empowerment - we empower workers to take ownership and contribute to organizational success.</li>
-                        <li>Adaptability - we being flexible and responsive to changes in the business landscape.
-                        </li>
-                        <li>Integrity - we uphold integrity, honesty, and ethical behaviour in all interactions.</li>
-                    </ul>
-                </div>
-            </div>
-            <h1>Team and Leadership</h1>
-            <div class="two-box bg-dark-fixed-img">
-                <div class="two-1 card-dark-1">
-                    <p>Our team has a combined 30 years of experience in the industries aligned with our offering.</p>
-                    <ul>
-                        <li>Simon T Milani - Chair & CEO</li>
-                        <li>Portia L Munyadziwa - Head of Operations</li>
-                        <li>Desmond Milani - Head of IT & Data Science</li>
-                        <li>Mikateko C Milani - Head of HC</li>
-                        <li>Malehlokwe C Milani - Head of Sales and Marketing</li>
-                    </ul>
-                </div>
-                <div class="two-2">
-                    <img src="images/welcome.png" alt="">
-                </div>
-            </div>
-
-            <h1>Contact Us</h1>
-            <div class="one-box contact-us">
-                <div class="one-1 card-dark-1">
-                    <p>Phone Number - <a href="tel:080016972">0800 1NWESA</a> </p>
-                    <p>Email Address - <a href="mailto:Info@1nwesa.co.za">Info@1nwesa.co.za</a> </p>
-                    
-                    <p>WhatsApp - <a href="api.whatsapp.com/send?phone=2780016972">0800 1NWESA</a> </p>
-                    <p>X - @Official_1NWESA</p>
-                    <p>Facebook - 1NWESA</p>
-                    <p>Address - 906/36 Isithama Section Tembisa Ekurhuleni Gauteng South Africa 1632</p>
+            <div class="col-md-4">
+                <div class="card bg-dark text-light h-100">
+                    <div class="card-header">
+                        <h4>1N'WESA ETD Practitioners</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Specialises in human capital education, training and development. This ensures that our clients’ employees have the required skills and expertise</p>
+                        <ul>
+                            <li>Content research</li>
+                            <li>Skills analysis</li>
+                            <li>Skills development facilitation</li>
+                            <li>Facilitation, Assessment and Moderation</li>
+                            <li>Coaching and mentorship</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <footer class="footer dark">
-            <p> &copy; 2024 1 N'WE SOUTH AFRICA</p>
+        <section class="row mt-5 mb-2" id="about_">
+            <div class="col">
+                <h2 class="text-center des-text-dark">Company overview</h2>
+            </div>
+        </section>
+
+        <section id="overview_" class="row justify-content-center">
+            <!-- Carousel -->
+            <div class="col-md-8">
+                <div id="overview" class="carousel slide" data-bs-ride="carousel">
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner dim-bg">
+                        <div class="carousel-item active">
+                            <img src="images/backgrounds/bg (5).jpeg" alt="Los Angeles" class="d-block w-100">
+                            <div class="carousel-caption text-light">
+                                <h3>2012</h3>
+                                <p>1NWESA was founded by Simon T Milani as a vehicle to drive his passion of Organisational Efficiency and People Development, in 2012. This making it our 1st of the 7 Key Milestones.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/backgrounds/bg (5).jpeg" alt="Chicago" class="d-block w-100">
+                            <div class="carousel-caption  text-light">
+                                <h3>2012/13</h3>
+                                <p>Facilitated an NPO Administration course (Unaccredited) for EEYO NPO (Tembisa, GP).</p>
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="carousel-item">
+                            <img src="images/backgrounds/bg (5).jpeg" alt="New York" class="d-block w-100">
+                            <div class="carousel-caption  text-light">
+                                <h3>2013</h3>
+                                <p>Facilitated & Coached on SAQA accredited unit standards 7468, 9015, 9016, 119457, 114969, 119459 & 119465 for City Year Learnership - subcontracted by Basadi Africa (LVK) (JHB, GP).</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/backgrounds/bg (5).jpeg" alt="New York" class="d-block w-100">
+                            <div class="carousel-caption  text-light">
+                                <h3>2014/15</h3>
+                                <p>Facilitated SAQA accredited unit standards 9010, 9012, 9013, 119457, 119459 & 119465 for RLM CDWs Learnership - subcontracted by Basadi Africa (LVK) (Rustenburg, NW).</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/backgrounds/bg (5).jpeg" alt="New York" class="d-block w-100">
+                            <div class="carousel-caption  text-light">
+                                <h3>2015</h3>
+                                <p>Facilitated SAQA accredited unit standards 7468, 9015 & 9016 for Ditsela Academy - subcontracted by Basadi Africa (LVK) (JHB, GP).</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/backgrounds/bg (5).jpeg" alt="New York" class="d-block w-100">
+                            <div class="carousel-caption  text-light">
+                                <h3>2016</h3>
+                                <p>Assessed SAQA accredited unit standard 115753 for Basadi Africa (LVK) (Tembisa, GP).</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/backgrounds/bg (5).jpeg" alt="New York" class="d-block w-100">
+                            <div class="carousel-caption  text-light">
+                                <h3>2017</h3>
+                                <p>Facilitated SAQA accredited unit standards 7468, 9015 & 9016 for Ditsela Academy - subcontracted by Basadi Africa (LVK) (Cape Town, WC).</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#overview" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#overview" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="row mt-5 mb-2 des-text-dark">
+            <div class="col">
+                <h2 class="text-center">Target audience</h2>
+                <p class="text-center">We aim to serve the following segments across all 9 South African provinces.</p>
+            </div>
+        </section>
+
+        <section class="row text-light align-items-center">
+            <div class="col-md-6" style="text-align: center;">
+                <img src="images/icons/target-audience.png" alt="" class="side-img">
+            </div>
+            <div class="col-md-6">
+                <div class="des-content">
+                    
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card bg-dark">
+                                <div class="card-header">
+                                    <h4>Public Sector</h4>
+                                </div>
+                                <div class="card-body">
+                                    <ul>
+                                        <li>Local and provincial governments</li>
+                                        <li>Colleges</li>
+                                        <li>NPOs</li>
+                                        <li>Workers Unions and Federations</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-2">
+                            <div class="card bg-dark">
+                                <div class="card-header">
+                                    <h4>Private Sector</h4>
+                                </div>
+                                <div class="card-body">
+                                    <ul>
+                                        <li>SMEs</li>
+                                        <li>Large corporate</li>
+                                        <li>Colleges</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card bg-dark">
+                                <div class="card-header">
+                                    <h4>Individual</h4>
+                                </div>
+                                <div class="card-body">
+                                    <ul>
+                                        <li>Working class</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="row mt-5 mb-2 des-text-dark">
+            <div class="col">
+                <h2 class="text-center">Unique Selling Proposition (USP)</h2>
+            </div>
+        </section>
+
+        <section class="row des-text-dark">
+            <div class="col">
+                <p>We tailor-make competitively priced efficiency that cares for both organisation and employee. We use this principle and our values when selecting partners.</p>
+                <p>We do because our lived values ensures buzz in our walk.</p>
+                <ul>
+                    <li>Excellence - we strive for the highest standards of performance and quality.</li>
+                    <li>Education - we encourage and support a culture of learning, growth, and skill development.</li>
+                    <li>Collaboration - we foster teamwork, open communication, and synergy across strategic business units.</li>
+                    <li>Innovation - we embrace creativity and seek innovative solutions for efficiency and development.</li>
+                    <li>Empowerment - we empower workers to take ownership and contribute to organizational success.</li>
+                    <li>Adaptability - we being flexible and responsive to changes in the business landscape.</li>
+                    <li>Integrity - we uphold integrity, honesty, and ethical behaviour in all interactions.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="row mt-5 mb-2 des-text-dark">
+            <div class="col">
+                <h2 class="text-center">Team and Leadership</h2>
+            </div>
+        </section>
+
+        <section class="row des-text-dark">
+            <div class="col-md-6">
+                <p>Our team has a combined 30 years of experience in the industries aligned with our offering.</p>
+                <ul>
+                    <li>Simon T Milani - Chair & CEO</li>
+                    <li>Portia L Munyadziwa - Head of Operations</li>
+                    <li>Desmond Milani - Head of IT & Data Science</li>
+                    <li>Mikateko C Milani - Head of HC</li>
+                    <li>Malehlokwe C Milani - Head of Sales and Marketing</li>
+                </ul>
+            </div>
+            <div class="col-md-6" style="text-align: center;">
+                <img src="images/logoBlack.png" alt="" class="side-img" />
+            </div>
+        </section>
+
+        <section class="row mt-5 pb-3 des-dark" id="contact_">
+            <div class="col">
+                <h2 class="text-center">Contact Us</h2>
+            </div>
+        </section>
+
+        <section class="row bg-dark text-light">
+            <div class="col row">
+                <a href="tel:0800169372" class="col-md-2 col-sm-6 contact-group">
+                    <img src="images/icons/phone-call.png" alt="">
+                    <p>0800 1NWESA</p>
+                </a>
+
+                <a href="mailto:info@onenwesa.co.za" class="col-md-2 col-sm-6 contact-group">
+                    <img src="images/icons/email.png" alt="">
+                    <p>info@onenwesa.co.za</p>
+                </a>
+
+                <a href="#" class="col-md-2 contact-group">
+                    <img src="images/icons/whatsapp.png" alt="">
+                    <p>0800 1NWESA</p>
+                </a>
+
+                <a href="#" class="col-md-2 contact-group">
+                    <img src="images/icons/twitter.png" alt="">
+                    <p>@Official_1NWESA</p>
+                </a>
+
+                <a href="#" class="col-md-2 contact-group">
+                    <img src="images/icons/facebook.png" alt="">
+                    <p>@1NWESA</p>
+                </a>
+
+                <a href="#" class="col-md-2 contact-group">
+                    <img src="images/icons/home-button.png" alt="">
+                    <p>906/36 Isithame Section <br>
+                       Tembisa <br>
+                       Ekurhuleni <br>
+                       Gauteng <br>
+                       South Africa <br>
+                       1632
+                    </p>
+                </a>
+            </div>
+        </section>
+
+        <footer class="text-light py-2 my-1" style="background-color: black;">
+            <p class="text-center">&copy; 2024 1NWESA, all rights reserved</p>
         </footer>
     </div>
+    <script src="bootstrap/js/bootstrap.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
